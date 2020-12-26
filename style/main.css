@@ -1,0 +1,53 @@
+body {
+    background: #1860b8;
+}
+
+#calculadora {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: transparent;
+    border: solid 5px white;
+    width: 380px;
+    height: 620px;
+    border-radius: 15px;
+}
+
+#calculadora td {
+    padding: 10px;
+}
+
+.cajita_valor {
+    
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.boton {   
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.boton_largo {
+    display: block;
+    width: 140px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.funcion {
+    font-weight: bold;
+    color: red;
+}
